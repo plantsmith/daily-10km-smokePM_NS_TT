@@ -187,3 +187,4 @@ mid_rescaler <- function(mid = 0) {
     scales::rescale_mid(x, to, from, mid)
   }
 }
+
