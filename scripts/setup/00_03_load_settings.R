@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------------
 # Provide your Google Earth Engine email
-gee_email = "INSERT YOUR GEE EMAIL HERE, e.g. jdoe@stanford.edu"
+gee_email = "thuytienbui22@gmail.com"
 try(ee_Initialize(email = gee_email))
 
 # Set the number of cores to use in parallel computing
@@ -12,7 +12,7 @@ if (nchar(num_cores) > 0) {
 }
 
 # Provide your US Census API Key
-key <- "INSERT YOUR US CENSUS BUREAU API KEY HERE"
+key <- "9bb4facb6d23f48efbf424bb05c0c1ef1cf6f468393bc745d42179ac4aca5fee"
 census_api_key(key)
 
 #-------------------------------------------------------------------------------
